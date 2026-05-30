@@ -17,6 +17,25 @@ h1 {
     font-size: 40px;
 }
 
+/* 🔴 BUTTON TOP */
+.play-button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 22px;
+    background-color: #ff2d2d;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.play-button:hover {
+    background-color: #b30000;
+    transform: scale(1.05);
+}
+
 img {
     border-radius: 12px;
     border: 3px solid white;
@@ -26,25 +45,6 @@ img {
 iframe {
     border-radius: 12px;
     border: 3px solid white;
-}
-
-/* 🔴 PLAY BUTTON */
-.play-button {
-    display: inline-block;
-    margin-top: 25px;
-    padding: 15px 25px;
-    background-color: #ff2d2d;
-    color: white;
-    text-decoration: none;
-    font-size: 20px;
-    border-radius: 10px;
-    font-weight: bold;
-    transition: 0.3s;
-}
-
-.play-button:hover {
-    background-color: #b30000;
-    transform: scale(1.05);
 }
 
 footer {
